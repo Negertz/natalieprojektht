@@ -51,7 +51,7 @@ a:hover {
 }
 
 #toppbild {
-  width: 1400px;
+  width: 1425px;
   height: 300px;
 }
 
@@ -72,4 +72,15 @@ a:hover {
 }
 
 #första {
-  background-color: white;}
+  background-color: rgb(100, 100, 100)
+}
+
+#testbild {
+  width: 150px;
+  height: 100px;
+}
+
+#förstabild {
+  width: 800px;
+  height: 450px;
+}

@@ -30,9 +30,10 @@ footer {
 }
 
 #första {
-  grid-column: 2/4;
+  grid-column: 2/3;
 grid-row: 100px;
 }
+
 
 @media only screen and (max-width: 500px) {
   main {
