@@ -72,12 +72,34 @@ a:hover {
 }
 
 #första {
-  background-color: rgb(100, 100, 100)
+  background-color: rgb(100, 100, 100);
+  box-sizing: border-box; padding: 4px;
+}
+
+#andra {
+  background-color: rgb(100, 100, 100);
+  box-sizing: border-box; padding: 4px;
+}
+
+#tredje {
+  background-color: rgb(100, 100, 100);
+  box-sizing: border-box; padding: 4px;
+}
+
+#fjärde {
+  background-color: rgb(100, 100, 100);
+  box-sizing: border-box; padding: 4px;
 }
 
 #testbild {
   width: 150px;
   height: 100px;
+}
+
+#pil {
+  width: 50px;
+  height: 50px;
+  float: left;
 }
 
 #förstabild {
