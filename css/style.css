@@ -8,6 +8,7 @@ header {
 
 nav {
   background-color: rgb(100, 100, 100);
+  text-align: center;
 }
 
 section {
@@ -41,18 +42,17 @@ a:visited {
 a:hover {
   color: white;
   background-color: rgb(50, 50, 50);
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+#toppbild {
+  width: 100%;
 }
 
 #logga {
   float: left;
   width: 150px;
   height: 150px;
-}
-
-#toppbild {
-  width: 1425px;
-  height: 300px;
 }
 
 #home {
@@ -71,29 +71,16 @@ a:hover {
   font-size: 20px;
 }
 
-#första {
-  background-color: rgb(100, 100, 100);
-  box-sizing: border-box; padding: 4px;
+#testpic {
+  width: 80%;
 }
 
-#andra {
-  background-color: rgb(100, 100, 100);
-  box-sizing: border-box; padding: 4px;
-}
-
-#tredje {
-  background-color: rgb(100, 100, 100);
-  box-sizing: border-box; padding: 4px;
-}
-
-#fjärde {
-  background-color: rgb(100, 100, 100);
-  box-sizing: border-box; padding: 4px;
+h2 {
+  text-decoration: underline;
 }
 
 #testbild {
-  width: 150px;
-  height: 100px;
+  width: 100%;
 }
 
 #pil {
@@ -102,7 +89,18 @@ a:hover {
   float: left;
 }
 
-#förstabild {
-  width: 800px;
-  height: 450px;
+#picturelink:link {
+  color: black;
+  text-decoration: none;
+}
+
+#picturelink:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#picturelink:hover {
+  color: black;
+  background-color: white;
+  text-decoration: underline;
 }

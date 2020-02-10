@@ -13,43 +13,42 @@ header {
 }
 
 nav {
-  grid-column: 1/13;
-  align-self: center;
+  grid-row: auto;
+  align-content: center;
+}
+
+#H {
+  grid-column: 1/4;
+}
+#G {
+  grid-column: 4/7;
+}
+#R {
+  grid-column: 7/10;
+}
+#Am {
+  grid-column: 10/13;
 }
 
 section {
   grid-column: 3/11;
+  grid-row: auto;
 }
 
 footer {
   grid-column: 1/13;
 }
 
-#home {
-  align-self: center;
+#toppbild {
+  grid-column: 1/13;
 }
 
-#första {
-  grid-column: 2/3;
-grid-row: 100px;
+article {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: 0;
 }
 
-#andra {
-  grid-column: 3/4;
-grid-row: 100px;
-}
-
-#tredje {
-  grid-column: 4/5;
-grid-row: 100px;
-}
-
-#fjärde {
-  grid-column: 5/6;
-grid-row: 100px;
-}
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   main {
     grid-column: 1/13;
   }
@@ -60,11 +59,11 @@ grid-row: 100px;
 
   section {
     grid-column: 1/13;
-  }
-  #toppbild {
-    grid-column: 1/13;
     grid-row: auto;
   }
 
+  #toppbild {
+    grid-column: 1/13;
+  }
 
 }
