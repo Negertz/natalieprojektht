@@ -1,3 +1,7 @@
+/* Detta är en annan css fil. Anledningen till att jag använt en annan är att den tidigare inte passade till hur
+jag gjorde galleriet. Det hade blivit väldigt komplicerat att göra om de andra css filerna och där med hela
+hemsidan, plus att det hade tagit väldigt lång tid. Vilket är varför jag gjorde andra css-filer för galleriet*/
+
 .box > div {
     display: flex;
     justify-content: center;
